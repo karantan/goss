@@ -10,6 +10,8 @@ github.com/aelsabbahy/GOnetstat v0.0.0-20160428114218-edf89f784e08 h1:oD15ssIOuF
 github.com/aelsabbahy/GOnetstat v0.0.0-20160428114218-edf89f784e08/go.mod h1:FETZSu2VGNDJbGfeRExaz/SNbX0TTaqJEMo1yvsKoZ8=
 github.com/aelsabbahy/go-ps v0.0.0-20170721000941-443386855ca1 h1:s4dvLggvQOov0YFdv8XQvX+72TAFzfJg+6SgoXiIaq4=
 github.com/aelsabbahy/go-ps v0.0.0-20170721000941-443386855ca1/go.mod h1:70tSBushy/POz6cCR294bKno4BNAC7XWVdkkxWQ1N6E=
+github.com/aelsabbahy/goss v0.3.13 h1:B0Wyg6JogPj7WKCYQKn8ybmbJ0rsN37TTrRApA6w9xM=
+github.com/aelsabbahy/goss v0.3.13/go.mod h1:NtdaWbTlsMVN99il8HUJltRimfyxRINC+2hlt14JfPE=
 github.com/blang/semver v3.5.1+incompatible h1:cQNTCjp13qL8KC3Nbxr/y2Bqb63oX6wdnnjpJbkM4JQ=
 github.com/blang/semver v3.5.1+incompatible/go.mod h1:kRBLl5iJ+tD4TcOOxsy/0fnwebNt5EWlYSAyrTnjyyk=
 github.com/cheekybits/genny v1.0.0 h1:uGGa4nei+j20rOSeDeP5Of12XVm7TGUd4dJA9RDitfE=
