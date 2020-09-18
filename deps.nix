@@ -55,6 +55,15 @@
     };
   }
   {
+    goPackagePath = "github.com/aelsabbahy/goss";
+    fetch = {
+      type = "git";
+      url = "https://github.com/aelsabbahy/goss";
+      rev = "v0.3.13";
+      sha256 = "1ciri4rf2scxg8kw5rx6p90mhwbh620clb2dzskvl6zkib9zm8r6";
+    };
+  }
+  {
     goPackagePath = "github.com/blang/semver";
     fetch = {
       type = "git";
