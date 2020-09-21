@@ -1,4 +1,4 @@
-module github.com/aelsabbahy/goss
+module goss
 
 require (
 	github.com/Masterminds/goutils v1.1.0 // indirect
@@ -7,6 +7,7 @@ require (
 	github.com/achanda/go-sysctl v0.0.0-20160222034550-6be7678c45d2
 	github.com/aelsabbahy/GOnetstat v0.0.0-20160428114218-edf89f784e08
 	github.com/aelsabbahy/go-ps v0.0.0-20170721000941-443386855ca1
+	github.com/aelsabbahy/goss v0.3.13
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/cheekybits/genny v1.0.0
 	github.com/docker/docker v1.13.1
@@ -26,3 +27,5 @@ require (
 )
 
 go 1.13
+
+replace github.com/aelsabbahy/goss => ../goss
