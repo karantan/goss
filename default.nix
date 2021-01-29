@@ -5,11 +5,11 @@ buildSrc ? ./. }:
 let
 
   pkgs = import (fetchTarball {
-    # Latest nixpkgs-unstable from https://status.nixos.org/
-    # Stable doesn't seem to have some Go changes that we need
+    # https://github.com/NixOS/nixpkgs/tree/nixos-20.03 on 2021-01-16
+    # TODO: make sure this commit hash matches the one in ebn-nixos/nixos-configs/nixpkgs.nix
     url =
-      "https://github.com/NixOS/nixpkgs/tarball/0ce8cf87d8402fc7e4677ea3a2138a7673f0756e";
-    sha256 = "1wc2b1sjq6iyr24l7wf6raja16qfqssam1hakkwwn755iz17ppj5";
+      "https://github.com/NixOS/nixpkgs/tarball/929768261a3ede470eafb58d5b819e1a848aa8bf";
+    sha256 = "0zi54vbfi6i6i5hdd4v0l144y1c8rg6hq6818jjbbcnm182ygyfa";
   }) {
     config = { };
     overlays = [ ];
